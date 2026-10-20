@@ -19,7 +19,6 @@ function Login() {
       setError('Please fill in all fields')
       return
     }
-
     setLoading(true)
     try {
       const res = await login(email, password)
@@ -37,7 +36,7 @@ function Login() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-50 via-white to-brand-100 p-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8">
 
-        <h2 className="text-2xl font-bold text-center text-gray-900 mb-1">Welcome back</h2>
+        <h2 className="text-2xl font-bold text-center text-gray-900 mb-1">Welcome Back</h2>
         <p className="text-sm text-center text-gray-500 mb-6">Sign in to your account</p>
 
         {error && (
