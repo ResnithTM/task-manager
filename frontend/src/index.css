@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #f5f6f8;
+  color: #1a1a1a;
+}
+
+/* a small reusable button style */
+.btn-primary {
+  background-color: #f97316;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.15s;
+}
+.btn-primary:hover {
+  background-color: #ea580c;
+}
+.btn-primary:disabled {
+  background-color: #fdba74;
+  cursor: not-allowed;
+}
